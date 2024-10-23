@@ -8,6 +8,10 @@ test_that("check_mutate_by", {
   check_mutate_by()
 })
 
+test_that("check_mutate_by_char", {
+  check_mutate_by_char()
+})
+
 test_that("check_mutate_groupby", {
   check_mutate_groupby()
 })
@@ -24,8 +28,32 @@ test_that("check_summarise_by", {
   check_summarise_by()
 })
 
+test_that("check_summarise_by_char", {
+  check_summarise_by_char()
+})
+
 test_that("check_select", {
   check_select()
+})
+
+test_that("check_select_char", {
+  check_select_char()
+})
+
+test_that("check_select_char_minus", {
+  check_select_char_minus()
+})
+
+test_that("check_select_char2", {
+  check_select_char2()
+})
+
+test_that("check_select_char2_noc", {
+  check_select_char2_noc()
+})
+
+test_that("check_select_rename", {
+  check_select_rename()
 })
 
 test_that("check_select_tidy", {
@@ -67,3 +95,8 @@ test_that("check_case_when", {
 test_that("check_filter", {
   check_filter()
 })
+
+test_that("check_foreach", {
+  check_foreach()
+})
+
